@@ -1,0 +1,92 @@
+@import "compass/css3";
+
+/*===========================================*/
+/* ARROW to X STYLES                         */
+/*===========================================*/
+.arrow {
+
+  position: absolute;
+  // bottom: 50%;
+  // left: 50%;
+  margin-top:6px;    
+}
+
+.arrow__upper, .arrow__lower {
+  &:before, &:after {
+    content: '';
+    position: absolute;
+    display: block;
+    right: -9px;
+    width: 12px;
+    height: 4px;
+    background: #70aaa6;
+    @include border-radius(2px);
+    @include transition(all 0.5s);
+  }
+}
+
+.arrow__upper {
+  &:before, &:after {
+    top: 0px;
+    @include transform(rotate(-45deg));
+  }
+
+  &:after {
+    right: inherit;
+    left: -9px;
+    @include transform(rotate(45deg));
+  }
+}
+
+.arrow__lower {
+  &:before, &:after {
+    top: 6px;
+    @include transform(rotate(45deg));
+  }
+
+  &:after {
+    right: inherit;
+    left: -9px;
+    @include transform(rotate(-45deg));
+  }
+
+  .collapsed &:before,
+  .collapsed &:after {
+    top: 0px;
+    @include transform(rotate(-45deg));
+  }
+
+  .collapsed &:after {
+    @include transform(rotate(45deg));
+  }
+}
+
+/*===========================================*/
+/* DEMO-ONLY STYLES                          */
+/*===========================================*/
+body {
+  background: white;
+}
+
+.demo-content {
+  position: relative;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.btn {
+  position: relative;
+  padding: 10px 25px;
+  background: #f4f1eb;
+  color: #595959;
+  text-decoration: none;
+  @include border-radius(10px);
+
+  &:hover, &:focus {
+    background-color: darken(#f4f1eb, 5%);
+  }
+
+  &:active {
+    top: 2px;
+  }
+}

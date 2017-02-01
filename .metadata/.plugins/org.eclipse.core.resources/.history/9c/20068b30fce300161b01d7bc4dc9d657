@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonathan Borgia: Full Stack Developer</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean1.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+    <link rel="stylesheet" href="assets/css/v-accordion.css">
+    <script src="assets/js/angular.min.js"></script>
+    <script src="assets/js/angular-route.min.js"></script>
+    <script src="assets/js/angular-animate.min.js"></script>
+    <script src="assets/js/v-accordion.js"></script>
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-default navigation-clean">
+            <div class="container-fluid">
+                <div class="navbar-header"><a class="navbar-brand navbar-link" href="/">Jonathan Borgia</a>
+                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                </div>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li role="presentation"><a href="/resume.html">Resume</a></li>
+                        <li class="active" role="presentation"><a href="#summary">Summary</a></li>
+                        <li role="presentation"><a href="#technologies">Technologies</a></li>
+                        <li role="presentation"><a href="#references">References</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Porfolio <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li role="presentation"><a href="#">Quibblur.com</a></li>
+                                <li role="presentation"><a href="#">Angular To Do</a></li>
+                                <li role="presentation"><a href="#">SCR&#234;V&#201;R</a></li>
+                                <li role="presentation"><a href="#">Unlivable.space</a></li>
+                                <li role="presentation"><a href="#">U.S. Presidents</a></li>
+                                <li role="presentation"><a href="#">JS Calculator</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div>
+        <div class="container-fluid">
+            <div class="row" style="background: #00ff00 url("IMGS/fog.jpg") no-repeat fixed center;">
+                <div class="col-md-12">
+                    <h1 style="text-align:center;padding:20px" id="summary">SUMMARY</h1>
+                </div>
+                <div style="margin-bottom:40px" class="col-md-7">My background in project management and digital marketing have helped me appreciate the agile nature of today’s business relationships and the importance of gaining insight into the needs, issues, and industry trends necessary to devise the questions, ideas, alternatives, recommendations, and plans that help formulate and realize strategies and objectives. My philosophy when it comes to programming revolves around the belief that understanding a user’s story is imperative to creating a great product while keeping it great requires thoughtful planning, detailed execution, and iterative refinement. I am looking for a position in which performance is measured by results and I can increase return on investment while promoting an organization that strives for superiority.
+                </div>
+                <div class="col-md-5"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-12"></div>
+            </div>
+        </div>
+    </div>
+    <div class="carousel slide" data-ride="carousel" id="carousel-1">
+        <div class="carousel-inner" role="listbox">
+            <div class="item active"><img src="http://placeholdit.imgix.net/~text?txtsize=42&amp;txt=Carousel+Image&amp;w=1400&amp;h=600" alt="Slide Image"></div>
+            <div class="item"><img src="http://placeholdit.imgix.net/~text?txtsize=42&amp;txt=Carousel+Image&amp;w=1400&amp;h=600" alt="Slide Image"></div>
+            <div class="item"><img src="http://placeholdit.imgix.net/~text?txtsize=42&amp;txt=Carousel+Image&amp;w=1400&amp;h=600" alt="Slide Image"></div>
+        </div>
+        <div><a class="left carousel-control" href="#carousel-1" role="button" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i><span class="sr-only">Previous</span></a>
+            <a class="right carousel-control" href="#carousel-1" role="button" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i><span class="sr-only">Next</span></a>
+        </div>
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-1" data-slide-to="1"></li>
+            <li data-target="#carousel-1" data-slide-to="2"></li>
+        </ol>
+    </div>
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 style="text-align:center;padding:20px" id="technologies">TECHNOLOGIES</h1>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">AJAX</div>
+                <div class="col-sm-6 col-md-4 col-lg-3">AngularJS</div>
+                <div class="col-sm-6 col-md-4 col-lg-3">Bootstrap</div>
+                <div class="col-sm-6 col-md-4 col-lg-3">Cascading Style Sheets (CSS)</div>
+                <div class="col-sm-6 col-md-4 col-lg-3">Eclipse</div>
+                <div class="col-sm-6 col-md-4 col-lg-3">Hibernate</div>
+                <div class="col-sm-6 col-md-4 col-lg-3">HTML5</div>
+                <div class="col-sm-6 col-md-4 col-lg-3">Java</div>
+                <div class="col-sm-6 col-md-4 col-lg-3">Java Database Connectivity (JDBC)</div>
+                <div class="col-sm-6 col-md-4 col-lg-3">Java Enterprise Edition</div>
+                <div class="col-sm-6 col-md-4 col-lg-3">Java Swing</div>
+                <div class="col-sm-6 col-md-4 col-lg-3">JavaSE</div>
+                <div class="col-sm-6 col-md-4 col-lg-3">JSON</div>
+                <div class="col-sm-6 col-md-4 col-lg-3">JavaScript</div>
+                <div class="col-sm-6 col-md-4 col-lg-3">JavaServer Pages (JSP)</div>
+                <div class="col-sm-6 col-md-4 col-lg-3">jQuery</div>
+                <div class="col-sm-6 col-md-4 col-lg-3">Linux</div>
+                <div class="col-sm-6 col-md-4 col-lg-3">Maven</div>
+                <div class="col-sm-6 col-md-4 col-lg-3">MySQL</div>
+                <div class="col-sm-6 col-md-4 col-lg-3">Object-Oriented Programming (OOP)</div>
+                <div class="col-sm-6 col-md-4 col-lg-3">Representational State Transfer (REST) </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">Spring Framework</div>
+                <div class="col-sm-6 col-md-4 col-lg-3">Spring MVC</div>
+                <div class="col-sm-6 col-md-4 col-lg-3">Spring Security</div>
+                <div class="col-sm-6 col-md-4 col-lg-3">Unix</div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 style="text-align:center;padding:20px" id="references">REFERENCES</h1>
+                </div>
+                <div class="col-md-7"></div>
+                <div class="col-md-5"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-12"></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="#"><i class="icon ion-social-linkedin"></i></a><a href="#"><i class="icon ion-social-github"></i></a></div>
+            <ul class="list-inline">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">LinkedIn </a></li>
+                <li><a href="#">GitHub </a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">Jonathan Borgia© 2017</p>
+        </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

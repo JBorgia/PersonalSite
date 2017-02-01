@@ -1,0 +1,43 @@
+.lavaLampBottomStyle {
+    position: relative;
+}
+        .lavaLampBottomStyle li {
+            float: right;
+            list-style: none;
+        }
+            .lavaLampBottomStyle li.back {
+                border-bottom: 3px solid #70aaa6;
+                width: 9px;
+                height: 40px;
+                z-index: 8;
+                position: absolute;
+            }
+            .lavaLampBottomStyle li a {
+                z-index: 10;
+                height: 30px;
+            }
+                .lavaLampBottomStyle li a:hover, .lavaLampBottomStyle li a:active, .lavaLampBottomStyle li a:visited {
+                    border: none;
+                }
+
+  .lavaLampFooterStyle {
+      position: relative;
+  }
+          .lavaLampFooterStyle li {
+              float: center;
+              list-style: none;
+          }
+              .lavaLampFooterStyle li.back {
+                  border-bottom: 3px solid #70aaa6;
+                  width: 9px;
+                  height: 30px;
+                  z-index: 8;
+                  position: absolute;
+              }
+              .lavaLampFooterStyle li a {
+                  z-index: 10;
+                  height: 30px;
+              }
+                  .lavaLampFooterStyle li a:hover, .lavaLampFooterStyle li a:active, .lavaLampFooterStyle li a:visited {
+                      border: none;
+                  }

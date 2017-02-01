@@ -1,0 +1,122 @@
+/*===========================================*/
+/* ARROW to X STYLES                         */
+/*===========================================*/
+/* line 6, AccordIcon.scss */
+.arrow {
+  position: absolute;
+  margin-top: 6px;
+}
+
+/* line 15, AccordIcon.scss */
+.arrow__upper:before, .arrow__upper:after, .arrow__lower:before, .arrow__lower:after {
+  content: '';
+  position: absolute;
+  display: block;
+  right: -9px;
+  width: 12px;
+  height: 4px;
+  background: #70aaa6;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+/* line 29, AccordIcon.scss */
+.arrow__upper:before, .arrow__upper:after {
+  top: 0px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+/* line 34, AccordIcon.scss */
+.arrow__upper:after {
+  right: inherit;
+  left: -9px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* line 42, AccordIcon.scss */
+.arrow__lower:before, .arrow__lower:after {
+  top: 6px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/* line 47, AccordIcon.scss */
+.arrow__lower:after {
+  right: inherit;
+  left: -9px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+/* line 54, AccordIcon.scss */
+.collapsed .arrow__lower:before, .collapsed .arrow__lower:after {
+  top: 0px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+/* line 59, AccordIcon.scss */
+.collapsed .arrow__lower:after {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/*===========================================*/
+/* DEMO-ONLY STYLES                          */
+/*===========================================*/
+/* line 67, AccordIcon.scss */
+body {
+  background: white;
+}
+
+/* line 71, AccordIcon.scss */
+.demo-content {
+  position: relative;
+  padding-top: 100px;
+  text-align: center;
+}
+
+/* line 77, AccordIcon.scss */
+.btn {
+  position: relative;
+  padding: 10px 25px;
+  background: #f4f1eb;
+  color: #595959;
+  text-decoration: none;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+/* line 85, AccordIcon.scss */
+.btn:hover, .btn:focus {
+  background-color: #ebe5db;
+}
+/* line 89, AccordIcon.scss */
+.btn:active {
+  top: 2px;
+}

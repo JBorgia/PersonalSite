@@ -1,0 +1,8 @@
+INDEX VERSION 1.3+/Users/MacBookPro15/SD/Java/Personal Site/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+2986622758.index
+1573596935.index
+403548251.index
+1779182413.index
+746555671.index
+2346261742.index
+2977368908.index
